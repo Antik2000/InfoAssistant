@@ -9,6 +9,7 @@ from langchain_community.document_loaders import UnstructuredURLLoader, PyPDFLoa
 from langchain_community.embeddings import OpenAIEmbeddings
 from langchain_community.vectorstores import FAISS
 from langchain.memory import ConversationBufferMemory
+from langchain_community.llms import OpenAI
 from dotenv import load_dotenv
 
 # Load local .env file (for local testing)
